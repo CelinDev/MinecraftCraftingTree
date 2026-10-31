@@ -1,0 +1,1384 @@
+{
+  "instance_name": "Project Infinity 0.1",
+  "modpack_version": "0.0.52.1",
+  "minecraft_version": "1.20.1",
+  "mod_loader": "forge-47.4.28",
+  "total_mods_scanned": 368,
+  "total_files_scanned": 38544,
+  "active_recipes_count": 32956,
+  "valid_recipes_count": 30836,
+  "partial_recipes_count": 1540,
+  "unsupported_recipes_count": 503,
+  "invalid_recipes_count": 77,
+  "removed_recipes_count": 2508,
+  "overridden_Duplicates_count": 91,
+  "skipped_by_condition_count": 3845,
+  "replaced_inputs_count": 113,
+  "replaced_outputs_count": 2,
+  "counts_by_source": {
+    "vanilla_jar": 1168,
+    "mod_jar": 30537,
+    "kubejs_datapack": 294,
+    "mod_config": 250,
+    "kubejs_script": 707
+  },
+  "counts_by_type": {
+    "minecraft:crafting_shaped": 9118,
+    "minecraft:crafting_shapeless": 4112,
+    "minecraft:stonecutting": 4289,
+    "minecraft:crafting_special_armordye": 1,
+    "minecraft:smelting": 737,
+    "minecraft:campfire_cooking": 16,
+    "minecraft:smoking": 19,
+    "minecraft:crafting_special_bannerduplicate": 1,
+    "minecraft:crafting_special_bookcloning": 1,
+    "minecraft:blasting": 335,
+    "minecraft:smithing_trim": 16,
+    "minecraft:crafting_decorated_pot": 1,
+    "minecraft:crafting_special_firework_rocket": 1,
+    "minecraft:crafting_special_firework_star": 1,
+    "minecraft:crafting_special_firework_star_fade": 1,
+    "minecraft:crafting_special_mapcloning": 1,
+    "minecraft:crafting_special_mapextending": 1,
+    "avaritia:shaped_table": 99,
+    "minecraft:smithing_transform": 254,
+    "minecraft:crafting_special_repairitem": 1,
+    "minecraft:crafting_special_shielddecoration": 1,
+    "minecraft:crafting_special_shulkerboxcoloring": 1,
+    "minecraft:crafting_special_suspiciousstew": 1,
+    "minecraft:crafting_special_tippedarrow": 1,
+    "justdirethings:ability": 150,
+    "justdirethings:tier_upgrade": 20,
+    "justdirethings:goospread": 16,
+    "justdirethings:goospread_tag": 1,
+    "unknown:invalid_json": 77,
+    "justdirethings:fluiddrop": 6,
+    "actuallyadditions:coffee_ingredient": 9,
+    "actuallyadditions:color_change": 128,
+    "actuallyadditions:crushing": 41,
+    "actuallyadditions:copy_nbt": 4,
+    "actuallyadditions:copy_nbt_shapeless": 16,
+    "actuallyadditions:empowering": 13,
+    "actuallyadditions:fermenting": 1,
+    "actuallyadditions:laser": 27,
+    "actuallyadditions:liquid_fuel": 4,
+    "actuallyadditions:mining_lens": 32,
+    "actuallyadditions:pressing": 1,
+    "actuallyadditions:solid_fuel": 6,
+    "advanced_ae:reaction": 32,
+    "ae2:inscriber": 49,
+    "mekanism:crushing": 267,
+    "expatternprovider:circuit_cutter": 10,
+    "ae2wtlib:combine": 30,
+    "ae2wtlib:upgrade": 10,
+    "ae2:charger": 6,
+    "mekanism:reaction": 21,
+    "mekanism:purifying": 68,
+    "mekanism:crystallizing": 21,
+    "mekanism:enriching": 219,
+    "mekanism:combining": 37,
+    "mekanism:injecting": 116,
+    "mekanism:washing": 17,
+    "mekanism:dissolution": 62,
+    "tconstruct:alloy": 3,
+    "tconstruct:casting_table": 142,
+    "tconstruct:casting_basin": 9,
+    "tconstruct:material_fluid": 9,
+    "tconstruct:melting": 257,
+    "tconstruct:melting_fuel": 1,
+    "tconstruct:material": 54,
+    "thermal:pulverizer": 190,
+    "apotheosis:add_sockets": 1,
+    "apotheosis:enchanting": 11,
+    "apotheosis:keep_nbt_enchanting": 1,
+    "apotheosis:potion_charm_enchanting": 1,
+    "apotheosis:fletching": 7,
+    "apotheosis:potion_charm": 1,
+    "apotheosis:reforging": 5,
+    "apotheosis:salvaging": 15,
+    "apotheosis:spawner_modifier": 26,
+    "ae2:entropy": 10,
+    "ae2:matter_cannon": 21,
+    "ae2:facade": 1,
+    "ae2:transform": 18,
+    "avaritia:extreme_smithing": 8,
+    "bhc:amulet_shapeless": 1,
+    "mekanism:irradiating": 13,
+    "mekanism:centrifuging": 3,
+    "bloodmagic:alchemytable": 128,
+    "bloodmagic:filteralchemytable": 3,
+    "bloodmagic:altar": 27,
+    "bloodmagic:anointment_apply": 1,
+    "bloodmagic:arc": 96,
+    "bloodmagic:arc_potion": 1,
+    "bloodmagic:array": 20,
+    "bloodmagic:livingdowngrade": 9,
+    "bloodmagic:filter_copy": 1,
+    "bloodmagic:flask_potioneffect": 14,
+    "bloodmagic:flask_potioncycle": 1,
+    "bloodmagic:flask_potiontransform": 13,
+    "bloodmagic:flask_potionfill": 2,
+    "bloodmagic:flask_potionflasktransform": 2,
+    "bloodmagic:flask_potionlength": 46,
+    "bloodmagic:flask_potionpotency": 32,
+    "bloodmagic:meteor": 14,
+    "bloodmagic:soulforge": 90,
+    "bloodmagic:tome_combine": 1,
+    "botania:gog_alternation": 6,
+    "botania:brew": 20,
+    "botania:twig_wand": 2,
+    "botania:ancient_will_attach": 1,
+    "botania:black_hole_talisman_extract": 1,
+    "botania:composite_lens": 1,
+    "botania:cosmetic_attach": 1,
+    "botania:cosmetic_remove": 1,
+    "botania:keep_ivy": 1,
+    "botania:laputa_shard_upgrade": 1,
+    "botania:lens_dye": 1,
+    "botania:mana_gun_add_clip": 1,
+    "botania:mana_gun_add_lens": 1,
+    "botania:mana_gun_remove_lens": 1,
+    "botania:merge_vial": 1,
+    "botania:phantom_ink_apply": 1,
+    "botania:spell_cloth_apply": 1,
+    "botania:split_lens": 1,
+    "botania:terra_pick_tipping": 1,
+    "botania:elven_trade": 21,
+    "botania:elven_trade_lexicon": 1,
+    "botania:nbt_output_wrapper": 8,
+    "botania:mana_infusion": 143,
+    "botania:mana_upgrade": 2,
+    "botania:mana_upgrade_shapeless": 1,
+    "botania:marimorphosis": 8,
+    "botania:orechid": 16,
+    "botania:orechid_ignem": 3,
+    "botania:petal_apothecary": 47,
+    "botania:pure_daisy": 8,
+    "botania:state_copying_pure_daisy": 1,
+    "botania:runic_altar": 32,
+    "botania:runic_altar_head": 1,
+    "botania:terra_plate": 10,
+    "botania:armor_upgrade": 4,
+    "botania:water_bottle_matching_shaped": 1,
+    "botanypots:crop": 1406,
+    "botanypots:soil": 262,
+    "botanypots:pot_interaction": 20,
+    "botanypots:fertilizer": 1,
+    "patchouli:shapeless_book_recipe": 2,
+    "create:crushing": 13,
+    "create:mixing": 1,
+    "create:pressing": 1,
+    "create:splashing": 12,
+    "cable_facades:directional_facade": 1,
+    "cable_facades:facade": 1,
+    "computercraft:clear_colour": 1,
+    "computercraft:colour": 1,
+    "computercraft:computer_upgrade": 3,
+    "computercraft:disk": 1,
+    "computercraft:impostor_shapeless": 18,
+    "computercraft:impostor_shaped": 24,
+    "computercraft:pocket_computer_upgrade": 1,
+    "computercraft:printout": 1,
+    "computercraft:shapeless": 2,
+    "computercraft:turtle": 2,
+    "computercraft:turtle_overlay": 4,
+    "computercraft:turtle_upgrade": 1,
+    "chipped:alchemy_bench": 2,
+    "chipped:botanist_workbench": 1,
+    "chipped:carpenters_table": 1,
+    "chipped:glassblower": 1,
+    "chipped:loom_table": 1,
+    "chipped:mason_table": 2,
+    "chipped:tinkering_table": 2,
+    "cofh_core:crafting_securable": 1,
+    "constructionwand:wand_upgrade": 1,
+    "cosmoslibrary:crafting_special_shielddecoration": 1,
+    "crazyae2addons:cradle": 11,
+    "crazyae2addons:fabrication": 16,
+    "crazyae2addons:research": 12,
+    "cyclic:melter": 43,
+    "cyclic:generator_fluid": 11,
+    "cyclic:generator_item": 19,
+    "cyclic:solidifier": 128,
+    "dankstorage:upgrade": 6,
+    "dimensionalpocketsii:upgrading": 13,
+    "draconicevolution:fusion_crafting": 39,
+    "eccentrictome:attachment": 1,
+    "enderio:alloy_smelting": 47,
+    "enderio:dark_steel_upgrade": 1,
+    "enderio:enchanting": 41,
+    "enderio:fire_crafting": 1,
+    "enderio:grinding_ball": 10,
+    "enderio:painting": 24,
+    "enderio:shaped_entity_storage": 1,
+    "enderio:sag_milling": 65,
+    "enderio:slicing": 5,
+    "enderio:soul_binding": 10,
+    "enderio:tank": 21,
+    "everlastingabilities:crafting_special_totem_recycle": 1,
+    "evolvedmekanism:alloying": 18,
+    "evolvedmekanism:apt": 4,
+    "mekanism:mek_data": 156,
+    "evolvedmekanism:chemixing": 3,
+    "mekanism:infusion_conversion": 31,
+    "mekanism:metallurgic_infusing": 36,
+    "mekanism:nucleosynthesizing": 24,
+    "mekanism:compressing": 5,
+    "exdeorum:barrel_compost": 63,
+    "exdeorum:barrel_fluid_mixing": 5,
+    "exdeorum:barrel_fluid_transformation": 1,
+    "exdeorum:barrel_mixing": 9,
+    "exdeorum:crook": 4,
+    "exdeorum:crucible_heat_source": 11,
+    "exdeorum:hammer": 31,
+    "exdeorum:lava_crucible": 4,
+    "exdeorum:tag_result": 4,
+    "exdeorum:sieve": 744,
+    "exdeorum:water_crucible": 26,
+    "extendedcrafting:shaped_ender_crafter": 2,
+    "extendedcrafting:shaped_flux_crafter": 2,
+    "avaritia:extreme_craft": 1,
+    "fluxnetworks:flux_storage_recipe": 2,
+    "fluxnetworks:nbt_wipe_recipe": 6,
+    "framedblocks:frame": 173,
+    "functionalstorage:custom_compacting": 26,
+    "functionalstorage:framed_recipe": 1,
+    "gateways:gate_recipe": 13,
+    "ifeu:arcane_dragon_egg_forging": 3,
+    "industrialforegoing:dissolution_chamber": 74,
+    "industrialforegoing:fluid_extractor": 8,
+    "ifeu:infuser": 7,
+    "industrialforegoing:laser_drill_fluid": 20,
+    "ifeu:precision_shaped": 2,
+    "ifeu:precision_shapeless": 6,
+    "ifeu:shaped": 9,
+    "ifeu:shapeless": 1,
+    "industrialforegoing:laser_drill_ore": 35,
+    "industrialforegoing:stonework_generate": 6,
+    "industrialforegoing:crusher": 3,
+    "integrateddynamics:drying_basin": 30,
+    "integrateddynamics:mechanical_drying_basin": 32,
+    "integrateddynamics:mechanical_squeezer": 72,
+    "integrateddynamics:mechanical_squeezer_facade": 1,
+    "integrateddynamics:crafting_special_nbt_clear": 5,
+    "integrateddynamics:crafting_special_energycontainer_combination": 1,
+    "integrateddynamics:crafting_special_facade": 1,
+    "integrateddynamics:crafting_special_shaped_omni_directional": 1,
+    "integrateddynamics:crafting_special_shaped_omni_directional_3": 1,
+    "integrateddynamics:crafting_special_shapeless_omni_directional": 1,
+    "integrateddynamics:crafting_special_variable_copy": 1,
+    "integrateddynamics:squeezer": 68,
+    "integrateddynamics:squeezer_facade": 1,
+    "cataclysm:amethyst_bless": 1,
+    "cataclysm:weapon_fusion": 8,
+    "laserio:cardclear": 5,
+    "logisticsnetworks:filter_copy_clear": 1,
+    "ars_nouveau:enchanting_apparatus": 2,
+    "mekanism:bin_extract": 1,
+    "mekanism:chemical_infusing": 6,
+    "mekanism:sawing": 164,
+    "mekanism:painting": 192,
+    "mekanism:energy_conversion": 2,
+    "mekanism:evaporating": 3,
+    "mekanism:gas_conversion": 6,
+    "mekanism:oxidizing": 6,
+    "mekanism:pigment_extracting": 178,
+    "mekanism:pigment_mixing": 14,
+    "mekanism:activating": 3,
+    "mekanism:rotary": 26,
+    "mekanism:separating": 3,
+    "mekanismtools:banner_shield": 1,
+    "mekanismtools:paxel": 11,
+    "mob_grinding_utils:beheading": 14,
+    "mob_grinding_utils:chicken_feed": 1,
+    "mob_grinding_utils:solidify": 1,
+    "modularrouters:breaker_module": 1,
+    "modularrouters:extruder_module_1": 1,
+    "modularrouters:guide_book": 1,
+    "modularrouters:module_reset": 1,
+    "mysticalagriculture:infusion": 67,
+    "cucumber:shaped_transfer_damage": 91,
+    "mysticalagriculture:awakening": 20,
+    "cucumber:shaped_no_mirror": 277,
+    "mysticalagriculture:farmland_till": 7,
+    "tconstruct:material_melting": 6,
+    "mysticalagriculture:reprocessor": 133,
+    "mysticalagriculture:enchanter": 39,
+    "cucumber:shaped_tag": 21,
+    "cucumber:shaped_transfer_nbt": 5,
+    "mysticalagriculture:soul_jar_empty": 1,
+    "mysticalagriculture:soulium_spawner": 19,
+    "mysticalagriculture:soul_extraction": 36,
+    "mythicbotany:infuser": 4,
+    "mythicbotany:rune_ritual": 3,
+    "gtceu:assembler": 16,
+    "gtceu:assembly_line": 1,
+    "gtceu:chemical_reactor": 2,
+    "neoecoae:storage_cell_disassembly": 27,
+    "neoecoae:integrated_working_station": 36,
+    "neoecoae:cooling": 3,
+    "gtceu:forming_press": 3,
+    "gtceu:large_chemical_reactor": 2,
+    "gtceu:macerator": 7,
+    "gtceu:mixer": 6,
+    "nuclearcraft:accelerator_coolant": 4,
+    "nuclearcraft:alloy_smelter": 62,
+    "nuclearcraft:analyzer": 2,
+    "nuclearcraft:assembler": 47,
+    "nuclearcraft:centrifuge": 52,
+    "nuclearcraft:chemical_reactor": 169,
+    "nuclearcraft:collision_chamber": 39,
+    "nuclearcraft:crystallizer": 33,
+    "nuclearcraft:decay_chamber": 34,
+    "nuclearcraft:decay_hastener": 34,
+    "nuclearcraft:electrolyzer": 3,
+    "nuclearcraft:extractor": 2,
+    "nuclearcraft:fission_boiling": 3,
+    "nuclearcraft:fission_reactor_controller": 109,
+    "nuclearcraft:fluid_enricher": 16,
+    "nuclearcraft:fluid_infuser": 190,
+    "nuclearcraft:fuel_reprocessor": 56,
+    "nuclearcraft:fusion_coolant": 4,
+    "nuclearcraft:fusion_core": 21,
+    "nuclearcraft:gas_scrubber": 1,
+    "nuclearcraft:heat_exchanger_controller": 6,
+    "nuclearcraft:ingot_former": 288,
+    "nuclearcraft:irradiator": 12,
+    "nuclearcraft:isotope_separator": 32,
+    "nuclearcraft:kugelblitz_chamber": 52,
+    "nuclearcraft:leacher": 16,
+    "nuclearcraft:manufactory": 121,
+    "nuclearcraft:melter": 604,
+    "nuclearcraft:msr_controller": 27,
+    "nuclearcraft:nc_ore_veins": 9,
+    "nuclearcraft:nuclear_blast": 2,
+    "nuclearcraft:pressurizer": 54,
+    "nuclearcraft:pump": 10,
+    "nuclearcraft:reset_nbt": 1,
+    "nuclearcraft:rock_crusher": 15,
+    "nuclearcraft:shielding": 1,
+    "nuclearcraft:steam_turbine": 2,
+    "nuclearcraft:subatomic_liquifier": 73,
+    "nuclearcraft:supercooler": 9,
+    "nuclearcraft:target_chamber": 441,
+    "nuclearcraft:turbine_controller": 3,
+    "molecularmanipulator:matter_fabrication": 70,
+    "molecularmanipulator:matter_research": 5,
+    "packagedauto:distributor_marker_cloning": 1,
+    "packagedauto:proxy_marker_cloning": 1,
+    "packagedauto:recipe_holder_cloning": 1,
+    "pneumaticcraft:compressor_upgrade_crafting": 2,
+    "pneumaticcraft:amadron": 12,
+    "pneumaticcraft:crafting_shaped_pressurizable": 11,
+    "pneumaticcraft:assembly_laser": 3,
+    "pneumaticcraft:assembly_drill": 4,
+    "pneumaticcraft:crafting_shaped_no_mirror": 2,
+    "pneumaticcraft:drone_color_crafting": 1,
+    "pneumaticcraft:drone_upgrade_crafting": 1,
+    "pneumaticcraft:explosion_crafting": 3,
+    "pneumaticcraft:fluid_mixer": 2,
+    "pneumaticcraft:gun_ammo_potion_crafting": 1,
+    "pneumaticcraft:heat_frame_cooling": 3,
+    "pneumaticcraft:one_probe_helmet_crafting": 1,
+    "pneumaticcraft:patchouli_book_crafting": 1,
+    "pneumaticcraft:fuel_quality": 12,
+    "pneumaticcraft:pressure_chamber": 15,
+    "pneumaticcraft:pressure_chamber_disenchanting": 1,
+    "pneumaticcraft:pressure_chamber_enchanting": 1,
+    "pneumaticcraft:refinery": 3,
+    "pneumaticcraft:thermo_plant": 24,
+    "powah:energizing": 29,
+    "projecte:covalence_repair": 1,
+    "projecte:crafting_shapeless_kleinstar": 5,
+    "projecte:philo_stone_smelting": 1,
+    "projectextended:shield_decoration": 1,
+    "avaritia:no_consume_catalyst_shaped": 2,
+    "avaritia:compressor": 1,
+    "avaritia:shapeless_table": 6,
+    "avaritia:full_matter_cluster": 1,
+    "mcjtylib:copy_nbt": 23,
+    "rftoolsutility:spawner": 70,
+    "rftoolsutility:syringe": 16,
+    "sanguine_networks:catalyst": 7,
+    "skylogistics:sky_offering": 9,
+    "sophisticatedcore:upgrade_next_tier": 36,
+    "sophisticatedbackpacks:basic_backpack": 1,
+    "sophisticatedbackpacks:backpack_dye": 1,
+    "sophisticatedbackpacks:backpack_upgrade": 5,
+    "sophisticatedbackpacks:smithing_backpack_upgrade": 1,
+    "sophisticatedcore:ender_linker_clear": 1,
+    "sophisticatedcore:ender_linker_endpoint": 1,
+    "sophisticatedcore:upgrade_clear": 1,
+    "sophisticatedstorage:shulker_box_from_vanilla_shapeless": 17,
+    "sophisticatedstorage:barrel_material": 1,
+    "sophisticatedstorage:storage_tier_upgrade": 35,
+    "sophisticatedstorage:shulker_box_from_chest": 6,
+    "sophisticatedstorage:double_chest_tier_upgrade": 5,
+    "sophisticatedstorage:double_chest_tier_upgrade_shapeless": 1,
+    "sophisticatedstorage:flat_top_barrel_toggle": 1,
+    "sophisticatedstorage:generic_wood_storage": 5,
+    "sophisticatedstorage:storage_tier_upgrade_shapeless": 7,
+    "sophisticatedstorage:storage_dye": 1,
+    "sfm:disk_reset": 1,
+    "sfm:label_gun_reset": 1,
+    "sfm:printing_press": 4,
+    "farmersdelight:cutting": 5,
+    "thermal:bottler": 69,
+    "thermal:centrifuge": 75,
+    "thermal:chiller": 167,
+    "thermal:crucible": 248,
+    "thermal:crystallizer": 13,
+    "thermal:furnace": 2,
+    "thermal:press": 480,
+    "thermal:pulverizer_catalyst": 2,
+    "thermal:pulverizer_recycle": 9,
+    "thermal:pyrolyzer": 3,
+    "thermal:refinery": 9,
+    "thermal:sawmill": 28,
+    "thermal:smelter": 191,
+    "thermal:smelter_catalyst": 6,
+    "thermal:smelter_recycle": 26,
+    "thermal:numismatic_fuel": 31,
+    "thermal:tree_extractor": 16,
+    "thermal:compression_fuel": 9,
+    "thermal:magmatic_fuel": 1,
+    "thermal_extra:endothermic_dehydrator": 19,
+    "thermal_extra:cold_fuel": 9,
+    "thermal_extra:terraceous_fuel": 13,
+    "thermal_extra:advanced_refinery": 9,
+    "thermal_extra:component_assembly": 2,
+    "thermal_extra:fluid_mixer": 1,
+    "thermal_extra:nitratic_igniter_catalyst": 11,
+    "thermal_extra:nitratic_igniter": 11,
+    "titanium:test_serializer": 3,
+    "sewingkit:sewing": 2,
+    "toolbelt:sewing_upgrade": 7,
+    "twilightforest:crumble_horn": 36,
+    "twilightforest:magic_map_cloning_recipe": 1,
+    "twilightforest:maze_map_cloning_recipe": 1,
+    "twilightforest:moonworm_queen_repair_recipe": 1,
+    "twilightforest:transformation_powder": 16,
+    "twilightforest:uncrafting": 2,
+    "voidminers:miner": 28,
+    "waystones:warp_plate": 2,
+    "woot_revived:dye_liquifier": 42,
+    "woot_revived:fluid_infuser": 23,
+    "woot_revived:item_infuser": 27,
+    "woot_revived:stygian_anvil": 23,
+    "extendedcrafting:compressor": 81,
+    "hostilenetworks:sim_chamber": 44,
+    "hostilenetworks:loot_fabricator": 124,
+    "extendedcrafting:shaped_table": 4,
+    "mm:process": 97
+  },
+  "counts_by_status": {
+    "valid": 30836,
+    "unsupported": 503,
+    "partial": 1540,
+    "invalid": 77,
+    "removed": 2508
+  },
+  "duplicate_overrides": [
+    {
+      "recipe_id": "minecraft:copper_ingot",
+      "previous_source": "vanilla_jar:1.20.1.jar!/data/minecraft/recipes/copper_ingot.json",
+      "new_source": "mod_jar:alltheores-1.20.1-47.1.3-2.2.4.jar!/data/minecraft/recipes/copper_ingot.json"
+    },
+    {
+      "recipe_id": "minecraft:cake",
+      "previous_source": "vanilla_jar:1.20.1.jar!/data/minecraft/recipes/cake.json",
+      "new_source": "mod_jar:blueprint-1.20.1-7.1.5.jar!/data/minecraft/recipes/cake.json"
+    },
+    {
+      "recipe_id": "minecraft:pumpkin_pie",
+      "previous_source": "vanilla_jar:1.20.1.jar!/data/minecraft/recipes/pumpkin_pie.json",
+      "new_source": "mod_jar:blueprint-1.20.1-7.1.5.jar!/data/minecraft/recipes/pumpkin_pie.json"
+    },
+    {
+      "recipe_id": "minecraft:pumpkin_seeds",
+      "previous_source": "vanilla_jar:1.20.1.jar!/data/minecraft/recipes/pumpkin_seeds.json",
+      "new_source": "mod_jar:blueprint-1.20.1-7.1.5.jar!/data/minecraft/recipes/pumpkin_seeds.json"
+    },
+    {
+      "recipe_id": "minecraft:music_disc_5",
+      "previous_source": "vanilla_jar:1.20.1.jar!/data/minecraft/recipes/music_disc_5.json",
+      "new_source": "mod_jar:Re-Avaritia-forge-1.20.1-1.4.2-release.jar!/data/minecraft/recipes/music_disc_5.json"
+    },
+    {
+      "recipe_id": "minecraft:sculk",
+      "previous_source": "mod_jar:ifeu-1.20.1-2.5.000.jar!/data/minecraft/recipes/sculk.json",
+      "new_source": "mod_jar:Re-Avaritia-forge-1.20.1-1.4.2-release.jar!/data/minecraft/recipes/sculk.json"
+    },
+    {
+      "recipe_id": "minecraft:end_crystal",
+      "previous_source": "vanilla_jar:1.20.1.jar!/data/minecraft/recipes/end_crystal.json",
+      "new_source": "mod_jar:TheOuterEnd-1.0.13.jar!/data/minecraft/recipes/end_crystal.json"
+    },
+    {
+      "recipe_id": "extendedcrafting:ultimate_singularity",
+      "previous_source": "mod_jar:ExtendedCrafting-1.20.1-6.1.9.jar!/data/extendedcrafting/recipes/ultimate_singularity.json",
+      "new_source": "mod_config:C:\\Users\\olx\\curseforge\\minecraft\\Instances\\Project Infinity 0.1\\config\\extendedcrafting\\singularities"
+    },
+    {
+      "recipe_id": "avaritia:denser_neutron_collector",
+      "previous_source": "mod_jar:Re-Avaritia-forge-1.20.1-1.4.2-release.jar!/data/avaritia/recipes/denser_neutron_collector.json",
+      "new_source": "kubejs_datapack:data/avaritia/recipes/denser_neutron_collector.json"
+    },
+    {
+      "recipe_id": "bloodmagic:altar/slate",
+      "previous_source": "mod_jar:BloodMagic-1.18-1.20.1-3.3.8-50.jar!/data/bloodmagic/recipes/altar/slate.json",
+      "new_source": "kubejs_datapack:data/bloodmagic/recipes/altar/slate.json"
+    },
+    {
+      "recipe_id": "botania:runic_altar/water",
+      "previous_source": "mod_jar:Botania-1.20.1-456-FORGE.jar!/data/botania/recipes/runic_altar/water.json",
+      "new_source": "kubejs_datapack:data/botania/recipes/runic_altar/water.json"
+    },
+    {
+      "recipe_id": "botanicalextramachinery:terra_plate/alfsteel_ingot",
+      "previous_source": "mod_jar:botanicalextramachinery-1.3.0.5.jar!/data/botanicalextramachinery/recipes/terra_plate/alfsteel_ingot.json",
+      "new_source": "kubejs_datapack:data/botanicalextramachinery/recipes/terra_plate/alfsteel_ingot.json"
+    },
+    {
+      "recipe_id": "botanypots:mysticalagradditions/crop/awakened_draconium",
+      "previous_source": "mod_jar:BotanyPots-Forge-1.20.1-13.0.0.jar!/data/botanypots/recipes/mysticalagradditions/crop/awakened_draconium.json",
+      "new_source": "kubejs_datapack:data/botanypots/recipes/mysticalagradditions/crop/awakened_draconium.json"
+    },
+    {
+      "recipe_id": "botanypots:mysticalagradditions/crop/dragon_egg",
+      "previous_source": "mod_jar:BotanyPots-Forge-1.20.1-13.0.0.jar!/data/botanypots/recipes/mysticalagradditions/crop/dragon_egg.json",
+      "new_source": "kubejs_datapack:data/botanypots/recipes/mysticalagradditions/crop/dragon_egg.json"
+    },
+    {
+      "recipe_id": "botanypots:mysticalagradditions/crop/gaia_spirit",
+      "previous_source": "mod_jar:BotanyPots-Forge-1.20.1-13.0.0.jar!/data/botanypots/recipes/mysticalagradditions/crop/gaia_spirit.json",
+      "new_source": "kubejs_datapack:data/botanypots/recipes/mysticalagradditions/crop/gaia_spirit.json"
+    },
+    {
+      "recipe_id": "botanypots:mysticalagradditions/crop/nether_star",
+      "previous_source": "mod_jar:BotanyPots-Forge-1.20.1-13.0.0.jar!/data/botanypots/recipes/mysticalagradditions/crop/nether_star.json",
+      "new_source": "kubejs_datapack:data/botanypots/recipes/mysticalagradditions/crop/nether_star.json"
+    },
+    {
+      "recipe_id": "botanypots:mysticalagradditions/crop/neutronium",
+      "previous_source": "mod_jar:BotanyPots-Forge-1.20.1-13.0.0.jar!/data/botanypots/recipes/mysticalagradditions/crop/neutronium.json",
+      "new_source": "kubejs_datapack:data/botanypots/recipes/mysticalagradditions/crop/neutronium.json"
+    },
+    {
+      "recipe_id": "botanypots:mysticalagradditions/crop/nitro_crystal",
+      "previous_source": "mod_jar:BotanyPots-Forge-1.20.1-13.0.0.jar!/data/botanypots/recipes/mysticalagradditions/crop/nitro_crystal.json",
+      "new_source": "kubejs_datapack:data/botanypots/recipes/mysticalagradditions/crop/nitro_crystal.json"
+    },
+    {
+      "recipe_id": "crazyae2addons:research/ticker",
+      "previous_source": "mod_jar:crazyae2addons-2.6.2-all.jar!/data/crazyae2addons/recipes/research/ticker.json",
+      "new_source": "kubejs_datapack:data/crazyae2addons/recipes/research/ticker.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/chaotic_axe",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/chaotic_axe.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/chaotic_axe.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/chaotic_bow",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/chaotic_bow.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/chaotic_bow.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/chaotic_capacitor",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/chaotic_capacitor.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/chaotic_capacitor.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/chaotic_chestpiece",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/chaotic_chestpiece.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/chaotic_chestpiece.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/chaotic_hoe",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/chaotic_hoe.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/chaotic_hoe.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/chaotic_pickaxe",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/chaotic_pickaxe.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/chaotic_pickaxe.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/chaotic_shovel",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/chaotic_shovel.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/chaotic_shovel.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/chaotic_staff",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/chaotic_staff.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/chaotic_staff.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/chaotic_sword",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/chaotic_sword.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/chaotic_sword.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/draconic_axe",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/draconic_axe.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/draconic_axe.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/draconic_bow",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/draconic_bow.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/draconic_bow.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/draconic_capacitor",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/draconic_capacitor.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/draconic_capacitor.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/draconic_chestpiece",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/draconic_chestpiece.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/draconic_chestpiece.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/draconic_hoe",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/draconic_hoe.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/draconic_hoe.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/draconic_pickaxe",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/draconic_pickaxe.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/draconic_pickaxe.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/draconic_shovel",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/draconic_shovel.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/draconic_shovel.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/draconic_staff",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/draconic_staff.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/draconic_staff.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/draconic_sword",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/draconic_sword.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/draconic_sword.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/wyvern_axe",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/wyvern_axe.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/wyvern_axe.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/wyvern_bow",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/wyvern_bow.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/wyvern_bow.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/wyvern_capacitor",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/wyvern_capacitor.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/wyvern_capacitor.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/wyvern_chestpiece",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/wyvern_chestpiece.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/wyvern_chestpiece.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/wyvern_hoe",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/wyvern_hoe.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/wyvern_hoe.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/wyvern_pickaxe",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/wyvern_pickaxe.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/wyvern_pickaxe.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/wyvern_shovel",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/wyvern_shovel.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/wyvern_shovel.json"
+    },
+    {
+      "recipe_id": "draconicevolution:tools/wyvern_sword",
+      "previous_source": "mod_jar:Draconic-Evolution-1.20.1-3.1.2.621-universal.jar!/data/draconicevolution/recipes/tools/wyvern_sword.json",
+      "new_source": "kubejs_datapack:data/draconicevolution/recipes/tools/wyvern_sword.json"
+    },
+    {
+      "recipe_id": "enderio:sag_milling/cobblestone",
+      "previous_source": "mod_jar:EnderIO-1.20.1-6.2.18-beta-all.jar!/data/enderio/recipes/sag_milling/cobblestone.json",
+      "new_source": "kubejs_datapack:data/enderio/recipes/sag_milling/cobblestone.json"
+    },
+    {
+      "recipe_id": "enderio:sag_milling/gravel",
+      "previous_source": "mod_jar:EnderIO-1.20.1-6.2.18-beta-all.jar!/data/enderio/recipes/sag_milling/gravel.json",
+      "new_source": "kubejs_datapack:data/enderio/recipes/sag_milling/gravel.json"
+    },
+    {
+      "recipe_id": "enderio:sag_milling/sand",
+      "previous_source": "mod_jar:EnderIO-1.20.1-6.2.18-beta-all.jar!/data/enderio/recipes/sag_milling/sand.json",
+      "new_source": "kubejs_datapack:data/enderio/recipes/sag_milling/sand.json"
+    },
+    {
+      "recipe_id": "enderio:sag_milling/sandstone",
+      "previous_source": "mod_jar:EnderIO-1.20.1-6.2.18-beta-all.jar!/data/enderio/recipes/sag_milling/sandstone.json",
+      "new_source": "kubejs_datapack:data/enderio/recipes/sag_milling/sandstone.json"
+    },
+    {
+      "recipe_id": "enderio:sag_milling/stone",
+      "previous_source": "mod_jar:EnderIO-1.20.1-6.2.18-beta-all.jar!/data/enderio/recipes/sag_milling/stone.json",
+      "new_source": "kubejs_datapack:data/enderio/recipes/sag_milling/stone.json"
+    },
+    {
+      "recipe_id": "evolvedmekanism:alloying/compat/thermal/enderium_ingot",
+      "previous_source": "mod_jar:Evolved Mekanism APT Only-1.20.1-1.2.4.1.jar!/data/evolvedmekanism/recipes/alloying/compat/thermal/enderium_ingot.json",
+      "new_source": "kubejs_datapack:data/evolvedmekanism/recipes/alloying/compat/thermal/enderium_ingot.json"
+    },
+    {
+      "recipe_id": "exdeorum:crook/silkworm",
+      "previous_source": "mod_jar:exdeorum-1.53.jar!/data/exdeorum/recipes/crook/silkworm.json",
+      "new_source": "kubejs_datapack:data/exdeorum/recipes/crook/silkworm.json"
+    },
+    {
+      "recipe_id": "exdeorum:crook/silkworm_bonus",
+      "previous_source": "mod_jar:exdeorum-1.53.jar!/data/exdeorum/recipes/crook/silkworm_bonus.json",
+      "new_source": "kubejs_datapack:data/exdeorum/recipes/crook/silkworm_bonus.json"
+    },
+    {
+      "recipe_id": "exdeorum:hammer/crushed_blackstone",
+      "previous_source": "mod_jar:exdeorum-1.53.jar!/data/exdeorum/recipes/hammer/crushed_blackstone.json",
+      "new_source": "kubejs_datapack:data/exdeorum/recipes/hammer/crushed_blackstone.json"
+    },
+    {
+      "recipe_id": "exdeorum:hammer/crushed_end_stone",
+      "previous_source": "mod_jar:exdeorum-1.53.jar!/data/exdeorum/recipes/hammer/crushed_end_stone.json",
+      "new_source": "kubejs_datapack:data/exdeorum/recipes/hammer/crushed_end_stone.json"
+    },
+    {
+      "recipe_id": "exdeorum:hammer/crushed_netherrack",
+      "previous_source": "mod_jar:exdeorum-1.53.jar!/data/exdeorum/recipes/hammer/crushed_netherrack.json",
+      "new_source": "kubejs_datapack:data/exdeorum/recipes/hammer/crushed_netherrack.json"
+    },
+    {
+      "recipe_id": "exdeorum:hammer/dust",
+      "previous_source": "mod_jar:exdeorum-1.53.jar!/data/exdeorum/recipes/hammer/dust.json",
+      "new_source": "kubejs_datapack:data/exdeorum/recipes/hammer/dust.json"
+    },
+    {
+      "recipe_id": "exdeorum:hammer/gravel",
+      "previous_source": "mod_jar:exdeorum-1.53.jar!/data/exdeorum/recipes/hammer/gravel.json",
+      "new_source": "kubejs_datapack:data/exdeorum/recipes/hammer/gravel.json"
+    },
+    {
+      "recipe_id": "exdeorum:hammer/red_sand",
+      "previous_source": "mod_jar:exdeorum-1.53.jar!/data/exdeorum/recipes/hammer/red_sand.json",
+      "new_source": "kubejs_datapack:data/exdeorum/recipes/hammer/red_sand.json"
+    },
+    {
+      "recipe_id": "exdeorum:hammer/sand",
+      "previous_source": "mod_jar:exdeorum-1.53.jar!/data/exdeorum/recipes/hammer/sand.json",
+      "new_source": "kubejs_datapack:data/exdeorum/recipes/hammer/sand.json"
+    },
+    {
+      "recipe_id": "exdeorum:hammer/wood_chippings",
+      "previous_source": "mod_jar:exdeorum-1.53.jar!/data/exdeorum/recipes/hammer/wood_chippings.json",
+      "new_source": "kubejs_datapack:data/exdeorum/recipes/hammer/wood_chippings.json"
+    },
+    {
+      "recipe_id": "mekanism:crushing/cobblestone_to_gravel",
+      "previous_source": "mod_jar:Mekanism-1.20.1-10.4.16.80.jar!/data/mekanism/recipes/crushing/cobblestone_to_gravel.json",
+      "new_source": "kubejs_datapack:data/mekanism/recipes/crushing/cobblestone_to_gravel.json"
+    },
+    {
+      "recipe_id": "mekanism:crushing/gravel_to_sand",
+      "previous_source": "mod_jar:Mekanism-1.20.1-10.4.16.80.jar!/data/mekanism/recipes/crushing/gravel_to_sand.json",
+      "new_source": "kubejs_datapack:data/mekanism/recipes/crushing/gravel_to_sand.json"
+    },
+    {
+      "recipe_id": "mekanism:crushing/sandstone_to_sand",
+      "previous_source": "mod_jar:Mekanism-1.20.1-10.4.16.80.jar!/data/mekanism/recipes/crushing/sandstone_to_sand.json",
+      "new_source": "kubejs_datapack:data/mekanism/recipes/crushing/sandstone_to_sand.json"
+    },
+    {
+      "recipe_id": "mekanism:crushing/stone/to_cobblestone",
+      "previous_source": "mod_jar:Mekanism-1.20.1-10.4.16.80.jar!/data/mekanism/recipes/crushing/stone/to_cobblestone.json",
+      "new_source": "kubejs_datapack:data/mekanism/recipes/crushing/stone/to_cobblestone.json"
+    },
+    {
+      "recipe_id": "mekanism:metallurgic_infusing/alloy/atomic",
+      "previous_source": "mod_jar:Mekanism-1.20.1-10.4.16.80.jar!/data/mekanism/recipes/metallurgic_infusing/alloy/atomic.json",
+      "new_source": "kubejs_datapack:data/mekanism/recipes/metallurgic_infusing/alloy/atomic.json"
+    },
+    {
+      "recipe_id": "mekanism:reaction/substrate/ethene_oxygen",
+      "previous_source": "mod_jar:Mekanism-1.20.1-10.4.16.80.jar!/data/mekanism/recipes/reaction/substrate/ethene_oxygen.json",
+      "new_source": "kubejs_datapack:data/mekanism/recipes/reaction/substrate/ethene_oxygen.json"
+    },
+    {
+      "recipe_id": "mekanism:reaction/substrate/water_ethene",
+      "previous_source": "mod_jar:Mekanism-1.20.1-10.4.16.80.jar!/data/mekanism/recipes/reaction/substrate/water_ethene.json",
+      "new_source": "kubejs_datapack:data/mekanism/recipes/reaction/substrate/water_ethene.json"
+    },
+    {
+      "recipe_id": "mekanism:reaction/substrate/water_hydrogen",
+      "previous_source": "mod_jar:Mekanism-1.20.1-10.4.16.80.jar!/data/mekanism/recipes/reaction/substrate/water_hydrogen.json",
+      "new_source": "kubejs_datapack:data/mekanism/recipes/reaction/substrate/water_hydrogen.json"
+    },
+    {
+      "recipe_id": "mekanism:reaction/wood_gasification/wooden_slabs",
+      "previous_source": "mod_jar:Mekanism-1.20.1-10.4.16.80.jar!/data/mekanism/recipes/reaction/wood_gasification/wooden_slabs.json",
+      "new_source": "kubejs_datapack:data/mekanism/recipes/reaction/wood_gasification/wooden_slabs.json"
+    },
+    {
+      "recipe_id": "mysticalagriculture:augment/flight",
+      "previous_source": "mod_jar:MysticalAgriculture-1.20.1-7.0.24.jar!/data/mysticalagriculture/recipes/augment/flight.json",
+      "new_source": "kubejs_datapack:data/mysticalagriculture/recipes/augment/flight.json"
+    },
+    {
+      "recipe_id": "mythicbotany:mythicbotany_rune_rituals/kvasir_blood",
+      "previous_source": "mod_jar:MythicBotany-1.20.1-4.0.4.jar!/data/mythicbotany/recipes/mythicbotany_rune_rituals/kvasir_blood.json",
+      "new_source": "kubejs_datapack:data/mythicbotany/recipes/mythicbotany_rune_rituals/kvasir_blood.json"
+    },
+    {
+      "recipe_id": "neoecoae:cooling/cryotheum_solution",
+      "previous_source": "mod_jar:neoecoae-20.4.2.jar!/data/neoecoae/recipes/cooling/cryotheum_solution.json",
+      "new_source": "kubejs_datapack:data/neoecoae/recipes/cooling/cryotheum_solution.json"
+    },
+    {
+      "recipe_id": "neoecoae:reaction_chamber/superconducting_processor",
+      "previous_source": "mod_jar:neoecoae-20.4.2.jar!/data/neoecoae/recipes/reaction_chamber/superconducting_processor.json",
+      "new_source": "kubejs_datapack:data/neoecoae/recipes/reaction_chamber/superconducting_processor.json"
+    },
+    {
+      "recipe_id": "nuclearcraft:irradiator/ingots_platinum",
+      "previous_source": "mod_jar:NuclearCraft-1.20.1-1.2.36.jar!/data/nuclearcraft/recipes/irradiator/ingots_platinum.json",
+      "new_source": "kubejs_datapack:data/nuclearcraft/recipes/irradiator/ingots_platinum.json"
+    },
+    {
+      "recipe_id": "thermal:machines/crucible/crucible_glowstone_block",
+      "previous_source": "mod_jar:thermal_expansion-1.20.1-11.0.1.29.jar!/data/thermal/recipes/machines/crucible/crucible_glowstone_block.json",
+      "new_source": "kubejs_datapack:data/thermal/recipes/machines/crucible/crucible_glowstone_block.json"
+    },
+    {
+      "recipe_id": "thermal:machines/crucible/crucible_glowstone_dust",
+      "previous_source": "mod_jar:thermal_expansion-1.20.1-11.0.1.29.jar!/data/thermal/recipes/machines/crucible/crucible_glowstone_dust.json",
+      "new_source": "kubejs_datapack:data/thermal/recipes/machines/crucible/crucible_glowstone_dust.json"
+    },
+    {
+      "recipe_id": "thermal:machines/crucible/crucible_redstone_block",
+      "previous_source": "mod_jar:thermal_expansion-1.20.1-11.0.1.29.jar!/data/thermal/recipes/machines/crucible/crucible_redstone_block.json",
+      "new_source": "kubejs_datapack:data/thermal/recipes/machines/crucible/crucible_redstone_block.json"
+    },
+    {
+      "recipe_id": "thermal:machines/crucible/crucible_redstone_dust",
+      "previous_source": "mod_jar:thermal_expansion-1.20.1-11.0.1.29.jar!/data/thermal/recipes/machines/crucible/crucible_redstone_dust.json",
+      "new_source": "kubejs_datapack:data/thermal/recipes/machines/crucible/crucible_redstone_dust.json"
+    },
+    {
+      "recipe_id": "thermal:machines/pulverizer/pulverizer_cobblestone",
+      "previous_source": "mod_jar:thermal_expansion-1.20.1-11.0.1.29.jar!/data/thermal/recipes/machines/pulverizer/pulverizer_cobblestone.json",
+      "new_source": "kubejs_datapack:data/thermal/recipes/machines/pulverizer/pulverizer_cobblestone.json"
+    },
+    {
+      "recipe_id": "thermal:machines/pulverizer/pulverizer_gravel",
+      "previous_source": "mod_jar:thermal_expansion-1.20.1-11.0.1.29.jar!/data/thermal/recipes/machines/pulverizer/pulverizer_gravel.json",
+      "new_source": "kubejs_datapack:data/thermal/recipes/machines/pulverizer/pulverizer_gravel.json"
+    },
+    {
+      "recipe_id": "thermal:machines/pulverizer/pulverizer_sandstone",
+      "previous_source": "mod_jar:thermal_expansion-1.20.1-11.0.1.29.jar!/data/thermal/recipes/machines/pulverizer/pulverizer_sandstone.json",
+      "new_source": "kubejs_datapack:data/thermal/recipes/machines/pulverizer/pulverizer_sandstone.json"
+    },
+    {
+      "recipe_id": "thermal_extra:machines/crucible/from_gear/molten_dragonsteel",
+      "previous_source": "mod_jar:thermal_processing_v2.0.4-1.20.1.jar!/data/thermal_extra/recipes/machines/crucible/from_gear/molten_dragonsteel.json",
+      "new_source": "kubejs_datapack:data/thermal_extra/recipes/machines/crucible/from_gear/molten_dragonsteel.json"
+    },
+    {
+      "recipe_id": "thermal_extra:machines/crucible/from_gear/molten_shellite",
+      "previous_source": "mod_jar:thermal_processing_v2.0.4-1.20.1.jar!/data/thermal_extra/recipes/machines/crucible/from_gear/molten_shellite.json",
+      "new_source": "kubejs_datapack:data/thermal_extra/recipes/machines/crucible/from_gear/molten_shellite.json"
+    },
+    {
+      "recipe_id": "thermal_extra:machines/crucible/from_gear/molten_soul_infused",
+      "previous_source": "mod_jar:thermal_processing_v2.0.4-1.20.1.jar!/data/thermal_extra/recipes/machines/crucible/from_gear/molten_soul_infused.json",
+      "new_source": "kubejs_datapack:data/thermal_extra/recipes/machines/crucible/from_gear/molten_soul_infused.json"
+    },
+    {
+      "recipe_id": "thermal_extra:machines/crucible/from_gear/molten_twinite",
+      "previous_source": "mod_jar:thermal_processing_v2.0.4-1.20.1.jar!/data/thermal_extra/recipes/machines/crucible/from_gear/molten_twinite.json",
+      "new_source": "kubejs_datapack:data/thermal_extra/recipes/machines/crucible/from_gear/molten_twinite.json"
+    },
+    {
+      "recipe_id": "thermal_extra:machines/crucible/from_ingot/molten_dragonsteel",
+      "previous_source": "mod_jar:thermal_processing_v2.0.4-1.20.1.jar!/data/thermal_extra/recipes/machines/crucible/from_ingot/molten_dragonsteel.json",
+      "new_source": "kubejs_datapack:data/thermal_extra/recipes/machines/crucible/from_ingot/molten_dragonsteel.json"
+    },
+    {
+      "recipe_id": "thermal_extra:machines/crucible/from_ingot/molten_shellite",
+      "previous_source": "mod_jar:thermal_processing_v2.0.4-1.20.1.jar!/data/thermal_extra/recipes/machines/crucible/from_ingot/molten_shellite.json",
+      "new_source": "kubejs_datapack:data/thermal_extra/recipes/machines/crucible/from_ingot/molten_shellite.json"
+    },
+    {
+      "recipe_id": "thermal_extra:machines/crucible/from_ingot/molten_soul_infused",
+      "previous_source": "mod_jar:thermal_processing_v2.0.4-1.20.1.jar!/data/thermal_extra/recipes/machines/crucible/from_ingot/molten_soul_infused.json",
+      "new_source": "kubejs_datapack:data/thermal_extra/recipes/machines/crucible/from_ingot/molten_soul_infused.json"
+    },
+    {
+      "recipe_id": "thermal_extra:machines/crucible/from_ingot/molten_twinite",
+      "previous_source": "mod_jar:thermal_processing_v2.0.4-1.20.1.jar!/data/thermal_extra/recipes/machines/crucible/from_ingot/molten_twinite.json",
+      "new_source": "kubejs_datapack:data/thermal_extra/recipes/machines/crucible/from_ingot/molten_twinite.json"
+    },
+    {
+      "recipe_id": "mm:ether_gas_recipe2",
+      "previous_source": "kubejs_script:server_scripts/mods_recipes/masterfull_machinery/fire_attuned/fire_attuned_recipes_1.js",
+      "new_source": "kubejs_script:server_scripts/mods_recipes/masterfull_machinery/fire_attuned/fire_attuned_recipes_2.js"
+    }
+  ],
+  "errors": [
+    {
+      "source": "[Forge] justdirethings-1.1.11.jar!/data/justdirethings/recipes/fluidcollectort1_nbtclear.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "[Forge] justdirethings-1.1.11.jar!/data/justdirethings/recipes/fluidcollectort2_nbtclear.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "[Forge] justdirethings-1.1.11.jar!/data/justdirethings/recipes/fluidplacert1_nbtclear.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "[Forge] justdirethings-1.1.11.jar!/data/justdirethings/recipes/fluidplacert2_nbtclear.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "[Forge] justdirethings-1.1.11.jar!/data/justdirethings/recipes/generatorfluidt1_nbtclear.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/amethyst.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/copper_ingot.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/diamond.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/emerald.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/gold_ingot.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/iron_ingot.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/lapis_lazuli.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/nether_star.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/netherite_ingot.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/prismarine.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/quartz.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "ironfurnaces-1.20.1-4.1.8.jar!/data/ironfurnaces/recipes/generator_blasting/redstone.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/centrifuging.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/crystallizing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/dissolving.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/lathing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/liquifying.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/oxidizing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/painting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/pigment_extracting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/planting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/pressurised_reacting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/recycling.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/replicating.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/rolling_mill.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/stamping.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/absolute/washing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/centrifuging.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/crystallizing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/dissolving.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/lathing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/liquifying.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/oxidizing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/painting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/pigment_extracting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/planting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/pressurised_reacting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/recycling.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/replicating.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/rolling_mill.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/stamping.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/cosmic/washing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/centrifuging.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/crystallizing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/dissolving.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/lathing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/liquifying.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/oxidizing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/painting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/pigment_extracting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/planting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/pressurised_reacting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/recycling.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/replicating.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/rolling_mill.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/stamping.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/infinite/washing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/centrifuging.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/crystallizing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/dissolving.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/lathing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/liquifying.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/oxidizing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/painting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/pigment_extracting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/planting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/pressurised_reacting.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/recycling.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/replicating.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/rolling_mill.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/stamping.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    },
+    {
+      "source": "mekanism_extras-1.20.1-1.5.0.jar!/data/mekanism_extras/recipes/compat/mekmm/factory/supreme/washing.json",
+      "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+    }
+  ],
+  "unsupported_types_summary": {
+    "minecraft:crafting_special_armordye": 1,
+    "minecraft:crafting_special_bannerduplicate": 1,
+    "minecraft:crafting_special_bookcloning": 1,
+    "minecraft:smithing_trim": 16,
+    "minecraft:crafting_decorated_pot": 1,
+    "minecraft:crafting_special_firework_rocket": 1,
+    "minecraft:crafting_special_firework_star": 1,
+    "minecraft:crafting_special_firework_star_fade": 1,
+    "minecraft:crafting_special_mapcloning": 1,
+    "minecraft:crafting_special_mapextending": 1,
+    "minecraft:crafting_special_repairitem": 1,
+    "minecraft:crafting_special_shielddecoration": 1,
+    "minecraft:crafting_special_shulkerboxcoloring": 1,
+    "minecraft:crafting_special_suspiciousstew": 1,
+    "minecraft:crafting_special_tippedarrow": 1,
+    "justdirethings:goospread": 16,
+    "justdirethings:fluiddrop": 6,
+    "actuallyadditions:liquid_fuel": 4,
+    "ae2wtlib:upgrade": 10,
+    "tconstruct:melting_fuel": 1,
+    "apotheosis:potion_charm_enchanting": 1,
+    "apotheosis:potion_charm": 1,
+    "apotheosis:reforging": 5,
+    "apotheosis:salvaging": 11,
+    "apotheosis:spawner_modifier": 26,
+    "ae2:matter_cannon": 21,
+    "ae2:facade": 1,
+    "bloodmagic:anointment_apply": 1,
+    "bloodmagic:filter_copy": 1,
+    "bloodmagic:tome_combine": 1,
+    "botania:ancient_will_attach": 1,
+    "botania:black_hole_talisman_extract": 1,
+    "botania:composite_lens": 1,
+    "botania:cosmetic_attach": 1,
+    "botania:cosmetic_remove": 1,
+    "botania:keep_ivy": 1,
+    "botania:laputa_shard_upgrade": 1,
+    "botania:lens_dye": 1,
+    "botania:mana_gun_add_clip": 1,
+    "botania:mana_gun_add_lens": 1,
+    "botania:mana_gun_remove_lens": 1,
+    "botania:merge_vial": 1,
+    "botania:phantom_ink_apply": 1,
+    "botania:spell_cloth_apply": 1,
+    "botania:split_lens": 1,
+    "botania:terra_pick_tipping": 1,
+    "botania:elven_trade_lexicon": 1,
+    "botania:nbt_output_wrapper": 8,
+    "botanypots:pot_interaction": 20,
+    "cable_facades:directional_facade": 1,
+    "cable_facades:facade": 1,
+    "computercraft:clear_colour": 1,
+    "computercraft:colour": 1,
+    "computercraft:disk": 1,
+    "computercraft:pocket_computer_upgrade": 1,
+    "computercraft:printout": 1,
+    "computercraft:turtle_upgrade": 1,
+    "chipped:alchemy_bench": 2,
+    "chipped:botanist_workbench": 1,
+    "chipped:carpenters_table": 1,
+    "chipped:glassblower": 1,
+    "chipped:loom_table": 1,
+    "chipped:mason_table": 2,
+    "chipped:tinkering_table": 2,
+    "cofh_core:crafting_securable": 1,
+    "constructionwand:wand_upgrade": 1,
+    "cosmoslibrary:crafting_special_shielddecoration": 1,
+    "crazyae2addons:cradle": 11,
+    "cyclic:generator_fluid": 11,
+    "cyclic:generator_item": 19,
+    "eccentrictome:attachment": 1,
+    "enderio:dark_steel_upgrade": 1,
+    "enderio:fire_crafting": 1,
+    "everlastingabilities:crafting_special_totem_recycle": 1,
+    "exdeorum:barrel_fluid_transformation": 1,
+    "exdeorum:crucible_heat_source": 11,
+    "exdeorum:tag_result": 4,
+    "functionalstorage:framed_recipe": 1,
+    "integrateddynamics:mechanical_squeezer_facade": 1,
+    "integrateddynamics:crafting_special_nbt_clear": 5,
+    "integrateddynamics:crafting_special_energycontainer_combination": 1,
+    "integrateddynamics:crafting_special_facade": 1,
+    "integrateddynamics:crafting_special_shaped_omni_directional": 1,
+    "integrateddynamics:crafting_special_shaped_omni_directional_3": 1,
+    "integrateddynamics:crafting_special_shapeless_omni_directional": 1,
+    "integrateddynamics:crafting_special_variable_copy": 1,
+    "integrateddynamics:squeezer_facade": 1,
+    "logisticsnetworks:filter_copy_clear": 1,
+    "mekanism:bin_extract": 1,
+    "mekanismtools:banner_shield": 1,
+    "modularrouters:breaker_module": 1,
+    "modularrouters:extruder_module_1": 1,
+    "modularrouters:guide_book": 1,
+    "modularrouters:module_reset": 1,
+    "mysticalagriculture:soul_jar_empty": 1,
+    "gtceu:assembler": 16,
+    "gtceu:assembly_line": 1,
+    "gtceu:chemical_reactor": 2,
+    "gtceu:forming_press": 3,
+    "gtceu:large_chemical_reactor": 2,
+    "gtceu:macerator": 7,
+    "gtceu:mixer": 6,
+    "nuclearcraft:collision_chamber": 39,
+    "nuclearcraft:decay_chamber": 34,
+    "nuclearcraft:reset_nbt": 1,
+    "nuclearcraft:shielding": 1,
+    "packagedauto:distributor_marker_cloning": 1,
+    "packagedauto:proxy_marker_cloning": 1,
+    "packagedauto:recipe_holder_cloning": 1,
+    "pneumaticcraft:drone_color_crafting": 1,
+    "pneumaticcraft:drone_upgrade_crafting": 1,
+    "pneumaticcraft:gun_ammo_potion_crafting": 1,
+    "pneumaticcraft:one_probe_helmet_crafting": 1,
+    "pneumaticcraft:patchouli_book_crafting": 1,
+    "pneumaticcraft:pressure_chamber_disenchanting": 1,
+    "pneumaticcraft:pressure_chamber_enchanting": 1,
+    "projecte:covalence_repair": 1,
+    "projecte:philo_stone_smelting": 1,
+    "projectextended:shield_decoration": 1,
+    "rftoolsutility:spawner": 70,
+    "sanguine_networks:catalyst": 7,
+    "sophisticatedbackpacks:backpack_dye": 1,
+    "sophisticatedcore:ender_linker_clear": 1,
+    "sophisticatedcore:ender_linker_endpoint": 1,
+    "sophisticatedcore:upgrade_clear": 1,
+    "sophisticatedstorage:barrel_material": 1,
+    "sophisticatedstorage:flat_top_barrel_toggle": 1,
+    "sophisticatedstorage:storage_dye": 1,
+    "sfm:disk_reset": 1,
+    "sfm:label_gun_reset": 1,
+    "sfm:printing_press": 4,
+    "twilightforest:magic_map_cloning_recipe": 1,
+    "twilightforest:maze_map_cloning_recipe": 1,
+    "twilightforest:moonworm_queen_repair_recipe": 1
+  }
+}
